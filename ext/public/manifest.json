@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "ScamShield",
+    "version": "1.0",
+    "description": "Browser-side co-pilot to detect scams and explain red flags.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "sidePanel"
+    ],
+    "background": {
+      "service_worker": "background.js", 
+      "type": "module"
+    },
+    "side_panel": {
+      "default_path": "sidepanel/sidepanel.html"
+    },
+    "action": {
+      "default_title": "Click to open ScamShield"
+    },
+    "icons": {
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://generativelanguage.googleapis.com"
+    }
+}

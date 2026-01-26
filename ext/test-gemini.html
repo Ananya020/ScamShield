@@ -1,0 +1,14 @@
+import { analyzeScamMessage } from "./utils/promptTemplates.js";
+
+async function testGeminiAPI() {
+  try {
+    const result = await analyzeScamMessage("This is a test message. Click this link to win a prize!");
+    console.log("Gemini API response:", result);
+    document.body.innerHTML = `<pre>${JSON.stringify(result, null, 2)}</pre>`;
+  } catch (err) {
+    console.error("Gemini API error:", err);
+    document.body.innerHTML = `<pre style='color:red;'>Error: ${err.message}</pre>`;
+  }
+}
+
+testGeminiAPI();
