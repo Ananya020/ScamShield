@@ -5,6 +5,7 @@
     "description": "Browser-side co-pilot to detect scams and explain red flags.",
     "permissions": [
       "activeTab",
+      "tabs",
       "storage",
       "scripting",
       "sidePanel"
