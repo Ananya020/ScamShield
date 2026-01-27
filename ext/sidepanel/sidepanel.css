@@ -154,3 +154,35 @@ li::before {
   color: var(--primary);
   font-weight: bold;
 }
+/* Loading State */
+.loading {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 14px 0 6px;
+  color: var(--text-main);
+}
+
+/* AI Explanation Box */
+.ai-box {
+  background: #f1f5f9;
+  border-left: 4px solid var(--primary);
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  color: var(--text-main);
+  margin-bottom: 10px;
+}
+
+/* Calm reassurance */
+.calm-note {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 10px;
+}
