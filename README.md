@@ -99,6 +99,8 @@ It checks for:
 
 ---
 
+## DEMO LINK: https://youtu.be/32pbic4tSyM?si=Pwi0gHmLqwgwO8Mm
+
 ## 🛠 How It Works (Technical Overview)
 
 * **Browser Extension:** Chrome Extension (Manifest v3)
